@@ -1,0 +1,46 @@
+<configuration>
+
+    <!-- Appender para la consola -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="net.thucydides" level="OFF">
+        <appender-ref ref="STDOUT" />
+    </logger>
+
+    <logger name="net.serenitybdd.core.steps" level="OFF">
+        <appender-ref ref="STDOUT" />
+    </logger>
+
+    <logger name="net.serenitybdd.core" level="OFF">
+        <appender-ref ref="STDOUT" />
+    </logger>
+
+    <logger name="net.serenitybdd" level="OFF">
+        <appender-ref ref="STDOUT" />
+    </logger>
+
+
+    <logger name="net.serenitybdd.screenplay" level="OFF">
+        <appender-ref ref="STDOUT" />
+    </logger>
+
+    <logger name="net.serenitybdd.model" level="OFF">
+        <appender-ref ref="STDOUT" />
+    </logger>
+    <logger name="org.apache.http" level="OFF">
+        <appender-ref ref="STDOUT" />
+    </logger>
+    <logger name="org.slf4j" level="OFF">
+        <appender-ref ref="STDOUT" />
+    </logger>
+
+    <!-- Logging general para la aplicación -->
+    <root level="DEBUG">
+        <appender-ref ref="STDOUT" />
+    </root>
+
+</configuration>

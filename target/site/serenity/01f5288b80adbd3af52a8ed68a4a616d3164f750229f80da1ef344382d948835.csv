@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Obtener la lista de todos los productos","Obtener la lista de productos exitosamente","SUCCESS","2025-02-13T09:05:33.137003-05:00[America/Guayaquil]","0.0","3.88"
+"Agregar productos a la lista de productos","Insertar un nuevo producto","SUCCESS","2025-02-13T09:17:51.9144054-05:00[America/Guayaquil]","0.0","3.71"
+"Actualizar la marca en la lista de marcas","Actualizar una marca existente en la lista","SUCCESS","2025-02-13T09:35:50.600511-05:00[America/Guayaquil]","0.0","5.04"

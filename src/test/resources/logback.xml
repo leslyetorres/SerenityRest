@@ -38,7 +38,6 @@
         <appender-ref ref="STDOUT" />
     </logger>
 
-    <!-- Logging general para la aplicación -->
     <root level="DEBUG">
         <appender-ref ref="STDOUT" />
     </root>

@@ -15,6 +15,4 @@ Entonces la respuesta de la actualizacion debe tener un código de metodo de sol
 
 Ejemplos:
 | id           | nuevaMarca       |
-| 2           | "Nuevo H&M"      |
-| 3           | "Nueva Marca"    |
 | 5           | "Marca Actualizada" |

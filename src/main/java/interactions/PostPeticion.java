@@ -24,6 +24,7 @@ public class PostPeticion extends RestInteraction {
     @Override
     public <T extends Actor> void performAs(T actor) {
         logger.info("Realizando solicitud POST a recurso: {}", recurso);
+        logger.debug("Cuerpo de la solicitud: {}", cuerpo);
         rest().log().all()
                 .contentType(ContentType.JSON)
                 .relaxedHTTPSValidation()
